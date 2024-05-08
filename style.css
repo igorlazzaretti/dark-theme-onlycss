@@ -6,6 +6,7 @@
 :root{
     --body-bg: #fff;
     --body-color: #000;
+    --body-color-2: #6e57e0;
     --text-hover: coral;
 }
 /* MEDIA --- IMPORTANT --- */
@@ -46,8 +47,10 @@ p b:hover {
 }
 
 a{
+    color:var(--body-color-2);
     text-decoration: none;
 }
 a:visited{
     text-decoration: none;
+    
 }
